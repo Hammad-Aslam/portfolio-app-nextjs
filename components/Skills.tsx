@@ -6,8 +6,8 @@ import Javascript from "../public/assets/skills/javascript.png";
 import ReactImg from "../public/assets/skills/react.png";
 import Tailwind from "../public/assets/skills/tailwind.png";
 import Github from "../public/assets/skills/github1.png";
-import Typescript from "../public/assets/skills/typescript.png";
-import NextJS from "../public/assets/skills/nextjs.png";
+import Typescript from "../public/assets/skills/download.png";
+import NextJS from "../public/assets/skills/Next.png";
 
 const Skills = () => {
   return (
@@ -71,7 +71,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Typescript} width={115} height={69} alt="/" />
+                <Image src={Typescript} width={64} height={64} alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Typescript</h3>
@@ -89,12 +89,12 @@ const Skills = () => {
             </div>
           </div>
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="flex items-center justify-center">
               <div className="m-auto">
-                <Image src={NextJS} width={64} height={64} alt="/" />
+                <Image src={NextJS} width={600} height={600} alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Next</h3>
+                {/* <h3>Next</h3> */}
               </div>
             </div>
           </div>
