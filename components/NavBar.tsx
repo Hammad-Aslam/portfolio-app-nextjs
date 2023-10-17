@@ -7,9 +7,29 @@ import { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { useRouter } from "next/navigation";
 function NavBar() {
   const [Nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState("#ecf0f3");
+  const [linkColor, setLinkColor] = useState("#1f2937");
+  const [position, setPosition] = useState("fixed");
+  const router = useRouter();
+
+  useEffect(() => {
+    if (
+      (router as any).asPath === "/property" ||
+      // router.asPath === '/crypto' ||
+      (router as any).asPath === "/netflix"
+      // router.asPath === '/twitch'
+    ) {
+      setNavBg("transparent");
+      setLinkColor("#ecf0f3");
+    } else {
+      setNavBg("#ecf0f3");
+      setLinkColor("#1f2937");
+    }
+  }, [router]);
   function handleNav() {
     setNav(!Nav);
   }
@@ -25,16 +45,17 @@ function NavBar() {
   }, []);
   return (
     <div
+      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100]"
+          ? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300"
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image src={NavLogo} width="160" height="90" alt="/" />
+      <div className="flex transparent justify-between items-center w-full h-full px-2 2xl:px-16">
+        <Image src={NavLogo} width={130} height={140} alt="/" />
         <div>
-          <ul className="hidden md:flex">
+          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
