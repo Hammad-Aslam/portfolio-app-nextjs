@@ -23,7 +23,7 @@ const Projects = () => {
             title="Cloudniary App"
             backgroundImg={Cloudniary}
             projectUrl="/cloudinary"
-            tech="React JS"
+            tech="Next JS"
           />
         </div>
       </div>
