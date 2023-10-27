@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Car from "../../../public/assets/projects/car-showroom-app.png";
+import Car from "../../../public/assets/projects/car.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 

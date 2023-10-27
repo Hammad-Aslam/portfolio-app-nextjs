@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Cloudinary from "../../../public/assets/projects/cloudinary-app.png";
+import Cloudinary from "../../../public/assets/projects/cloudinary.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 

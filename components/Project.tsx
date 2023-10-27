@@ -1,5 +1,5 @@
-import Car from "../public/assets/projects/car-showroom-app.png";
-import Cloudniary from "../public/assets/projects/cloudinary-app.png";
+import Car from "../public/assets/projects/cloudinary.png";
+import Cloudniary from "../public/assets/projects/car.png";
 
 import ProjectItem from "./ProjectItem";
 
