@@ -4,7 +4,7 @@ import Cloudinary from "../../../public/assets/projects/cloudinary-app.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const netflix = () => {
+const cloudinary = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -77,4 +77,4 @@ const netflix = () => {
   );
 };
 
-export default netflix;
+export default cloudinary;

@@ -10,7 +10,6 @@ import Typescript from "../public/assets/skills/download.png";
 import Python from "../public/assets/skills/python3.png";
 import NextJS from "../public/assets/skills/nextjs1.png";
 import shadcnui from "../public/assets/skills/shadcn-ui.png";
-import Shopify from "../public/assets/skills/shopify.png";
 const Skills = () => {
   return (
     <div id="skills" className="w-full lg:h-screen p-2">
