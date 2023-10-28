@@ -17,7 +17,7 @@ const cloudinary = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Cloudniary App</h2>
+          <h2 className="py-2">Cloudinary App</h2>
           <h3>Next JS / Typescript / Tailwind </h3>
         </div>
       </div>
@@ -31,9 +31,9 @@ const cloudinary = () => {
             built using Cloudinary, Next.js, and Shadcn/ui. This project enables
             you to manage and showcase your images in a seamless and
             user-friendly manner without the need for a traditional database.
-            Instead, it leverages Cloudinary's powerful functionality for image
-            management, including uploading, tagging, editing, creating albums,
-            and more.
+            Instead, it leverages Cloudinary&apos;s powerful functionality for
+            image management, including uploading, tagging, editing, creating
+            albums, and more.
           </p>
           <a
             href="https://cloudinary-photos-app-eeaa.vercel.app/gallery"

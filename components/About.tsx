@@ -24,12 +24,12 @@ const About = () => {
             speed, efficiency, and a seamless user interface.
           </p>
           <p className="py-2 text-gray-600">
-            In addition to mastering the modern web stack, I've delved into the
-            world of Python, with a particular emphasis on type casting,
+            In addition to mastering the modern web stack, I&apos;ve delved into
+            the world of Python, with a particular emphasis on type casting,
             extending my capabilities to both the front-end and back-end realms.
-            I've also explored the exciting domain of LLM's Langchain, further
-            expanding my knowledge and staying ahead of emerging trends in the
-            tech landscape. With a strong foundation in both web and app
+            I&apos;ve also explored the exciting domain of LLM&apos;s Langchain,
+            further expanding my knowledge and staying ahead of emerging trends
+            in the tech landscape. With a strong foundation in both web and app
             development, I recently completed my graduation degree from NED
             University of Engineering and Technology (UIT). This academic
             background, combined with my practical experience, equips me with a

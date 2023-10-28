@@ -8,6 +8,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/navigation";
+
 function NavBar() {
   const [Nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
@@ -28,9 +29,11 @@ function NavBar() {
       setLinkColor("#1f2937");
     }
   }, [router]);
+
   function handleNav() {
     setNav(!Nav);
   }
+
   useEffect(() => {
     const handleShadow = () => {
       if (window.scrollY >= 90) {
@@ -39,8 +42,10 @@ function NavBar() {
         setShadow(false);
       }
     };
+
     window.addEventListener("scroll", handleShadow);
   }, []);
+
   return (
     <div
       style={{ backgroundColor: `${navBg}` }}
@@ -103,7 +108,7 @@ function NavBar() {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-4">
-                Let's Build Something New
+                Let&apos;s Build Something New
               </p>
             </div>
           </div>
@@ -162,7 +167,7 @@ function NavBar() {
             </ul>
             <div className="pt-40">
               <p className="uppercase tracking-widest text-[#5651e5]">
-                Let's Connect
+                Let&apos;s Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
