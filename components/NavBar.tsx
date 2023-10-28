@@ -18,10 +18,8 @@ function NavBar() {
 
   useEffect(() => {
     if (
-      (router as any).asPath === "/property" ||
-      // router.asPath === '/crypto' ||
-      (router as any).asPath === "/netflix"
-      // router.asPath === '/twitch'
+      (router as any).asPath === "/car" ||
+      (router as any).asPath === "/cloudinary"
     ) {
       setNavBg("transparent");
       setLinkColor("#ecf0f3");
