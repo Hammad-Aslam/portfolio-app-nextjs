@@ -1,6 +1,6 @@
 import Car from "../public/assets/projects/cloudinary.png";
 import Cloudniary from "../public/assets/projects/car.png";
-
+import LMS from "../public/assets/projects/lms.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -18,11 +18,16 @@ const Projects = () => {
             projectUrl="/car"
             tech="Next JS"
           />
-
           <ProjectItem
-            title="Cloudniary App"
+            title="Cloudinary App"
             backgroundImg={Cloudniary}
             projectUrl="/cloudinary"
+            tech="Next JS"
+          />
+          <ProjectItem
+            title="Learning Mangement System"
+            backgroundImg={LMS}
+            projectUrl="/lms"
             tech="Next JS"
           />
         </div>
