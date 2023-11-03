@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Website
+
+Welcome to my portfolio website! This website serves as a showcase of all my personal projects and highlights my skills and expertise in web development. 
+
+## Description
+
+This portfolio website is built using Next.js, React, and other technologies. It provides an overview of my skills, showcases my projects, and serves as a platform to connect with me.
+
+## Features
+
+- Display of personal projects
+- Information about my skills and experience
+- Contact information for collaboration or inquiries
+
+## Projects
+
+All the projects featured on this website are deployed and live on the internet. You can check out each project individually on the website.
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
 
 ## Getting Started
 
-First, run the development server:
+If you'd like to run this website locally, you can follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone this repository to your local machine.
+2. Install the required dependencies using `npm install`.
+3. Start the development server with `npm run dev`.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The website is currently live and deployed on [vercel](https://vercel.com/hammad-aslam/portfolio-app-nextjs-8wmn/).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contact
 
-## Learn More
+If you have any questions, suggestions, or would like to collaborate on a project, feel free to reach out to me. You can find my contact information on the website.
 
-To learn more about Next.js, take a look at the following resources:
+Thank you for visiting my portfolio!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**[Visit My Portfolio](https://vercel.com/hammad-aslam/portfolio-app-nextjs-8wmn)**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
