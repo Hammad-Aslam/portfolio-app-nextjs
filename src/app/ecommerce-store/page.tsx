@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import Cars from "../../../public/assets/projects/car.png";
+import Ecommercestore from "../../../public/assets/projects/ecom-store.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const Car = () => {
+const EcommerceStore = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -13,12 +13,12 @@ const Car = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={Cars}
+          src={Ecommercestore}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Car App</h2>
-          <h3>Next JS / Tailwind / Rest APIs</h3>
+          <h2 className="py-2">Ecommerce Store App</h2>
+          <h3>Next JS 14 / Clerk / Stripe API / Typescript / Tailwind </h3>
         </div>
       </div>
 
@@ -27,19 +27,19 @@ const Car = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This is a Next.js 13 project for building a car-related web
-            application. It utilizes the latest technologies and libraries to
-            provide an interactive and responsive user experience.
+            Welcome to the E-Commerce User App! This application shares the same
+            robust tech stack as the Admin App, allowing users to browse,
+            purchase items, and manage their shopping cart.
           </p>
           <a
-            href="https://github.com/Hammad-Aslam/car-showroom-nextjs13-app"
+            href="https://github.com/Hammad-Aslam/ecommerce-store-user"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://car-showroom-nextjs13-app-vk31-42hmg8wv3-hammad-aslam.vercel.app"
+            href="https://github.com/Hammad-Aslam/ecommerce-store-user"
             target="_blank"
             rel="noreferrer"
           >
@@ -51,7 +51,13 @@ const Car = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Next
+                <RiRadioButtonFill className="pr-1" /> Next Js 14
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Clerk
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Stripe API
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Tailwind
@@ -61,9 +67,6 @@ const Car = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Typescript
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Imagin API
               </p>
             </div>
           </div>
@@ -76,4 +79,4 @@ const Car = () => {
   );
 };
 
-export default Car;
+export default EcommerceStore;

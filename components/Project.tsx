@@ -1,6 +1,8 @@
-import Car from "../public/assets/projects/cloudinary.png";
-import Cloudniary from "../public/assets/projects/car.png";
+import Cloudniary from "../public/assets/projects/cloudinary.png";
+import Cars from "../public/assets/projects/car.png";
 import LMS from "../public/assets/projects/lms.png";
+import Eccomerceadmin from "../public/assets/projects/ecom-admin.png";
+import Eccomercestore from "../public/assets/projects/ecom-store.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -14,7 +16,7 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Showroom App"
-            backgroundImg={Car}
+            backgroundImg={Cars}
             projectUrl="/car"
             tech="Next JS"
           />
@@ -28,6 +30,18 @@ const Projects = () => {
             title="Learning Mangement System"
             backgroundImg={LMS}
             projectUrl="/lms"
+            tech="Next JS"
+          />
+          <ProjectItem
+            title="Ecommerce App Admin"
+            backgroundImg={Eccomerceadmin}
+            projectUrl="/ecommerce-admin"
+            tech="Next JS"
+          />
+          <ProjectItem
+            title="Ecommerce App Store"
+            backgroundImg={Eccomercestore}
+            projectUrl="/ecommerce-store"
             tech="Next JS"
           />
         </div>
