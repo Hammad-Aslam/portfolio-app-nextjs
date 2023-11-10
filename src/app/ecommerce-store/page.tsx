@@ -39,7 +39,7 @@ const EcommerceStore = () => {
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://github.com/Hammad-Aslam/ecommerce-store-user"
+            href="https://ecommerce-store-user.vercel.app"
             target="_blank"
             rel="noreferrer"
           >
