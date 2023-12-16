@@ -3,6 +3,7 @@ import Cars from "../public/assets/projects/car.png";
 import LMS from "../public/assets/projects/lms.png";
 import Eccomerceadmin from "../public/assets/projects/ecom-admin.png";
 import Eccomercestore from "../public/assets/projects/ecom-store.png";
+import Jotion from "../public/assets/projects/jotion.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -14,6 +15,12 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="Jotion Note Taking App"
+            backgroundImg={Jotion}
+            projectUrl="/jotion"
+            tech="Next JS"
+          />
           <ProjectItem
             title="Showroom App"
             backgroundImg={Cars}
